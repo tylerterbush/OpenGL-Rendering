@@ -1,0 +1,191 @@
+#camera 0.0 0.5 0.0   0.0 -0.05 -1.0   0.0 1.0 0.0   .523  
+#background 0.2 0.2 0.2
+#ambient 0.5 0.5 0.5 
+#ray_file_num 11
+#ray_file frontWall.ray
+#ray_file leftWall.ray
+#ray_file rightWall.ray
+#ray_file backWall.ray
+#ray_file floor.ray
+#ray_file ceiling.ray
+#ray_file tableLeg.ray
+#ray_file tableTop.ray
+#ray_file chairLeg.ray
+#ray_file chairSeat.ray
+#ray_file chairBack.ray
+#light_num 3
+#light_spot
+	0.0 1.0 0.0
+	0.0 2.5 -15.0
+	0.0 -1.0 0.0
+	1.0 0.0 0.0
+	0.1 1.0
+#light_point
+	1.0 1.0 1.0
+	-1.0 2.0 -15.0
+	1.0 0.0 0.0
+#light_point
+	0.0 0.0 1.0
+	1.0 2.0 -15.0
+	1.0 0.0 0.0
+#group_begin
+	 1.0 0.0 0.0 0.0
+	 0.0 1.0 0.0 0.0
+	 0.0 0.0 1.0 0.0
+	 0.0 0.0 0.0 1.0
+	#ray_file_instance 0
+#group_end
+#group_begin
+	 1.0 0.0 0.0 0.0
+	 0.0 1.0 0.0 0.0
+	 0.0 0.0 1.0 0.0
+	 0.0 0.0 0.0 1.0
+	#ray_file_instance 1
+#group_end
+#group_begin
+	 1.0 0.0 0.0 0.0
+	 0.0 1.0 0.0 0.0
+	 0.0 0.0 1.0 0.0
+	 0.0 0.0 0.0 1.0
+	#ray_file_instance 2
+#group_end
+#group_begin
+	 1.0 0.0 0.0 0.0
+	 0.0 1.0 0.0 0.0
+	 0.0 0.0 1.0 0.0
+	 0.0 0.0 0.0 1.0
+	#ray_file_instance 3
+#group_end
+#group_begin
+	 1.0 0.0 0.0 0.0
+	 0.0 1.0 0.0 0.0
+	 0.0 0.0 1.0 0.0
+	 0.0 0.0 0.0 1.0
+	#ray_file_instance 4
+#group_end
+#group_begin
+	 1.0 0.0 0.0 0.0
+	 0.0 1.0 0.0 0.0
+	 0.0 0.0 1.0 0.0
+	 0.0 0.0 0.0 1.0
+	#ray_file_instance 5
+#group_end
+#group_begin
+	 1.0 0.0 0.0 1.0
+	 0.0 1.0 0.0 -2.5
+	 0.0 0.0 1.0 -14.0
+	 0.0 0.0 0.0 1.0
+	#ray_file_instance 6
+#group_end
+#group_begin
+	 1.0 0.0 0.0 -1.0
+	 0.0 1.0 0.0 -2.5
+	 0.0 0.0 1.0 -14.0
+	 0.0 0.0 0.0 1.0
+	#ray_file_instance 6
+#group_end
+#group_begin
+	 1.0 0.0 0.0 1.0
+	 0.0 1.0 0.0 -2.5
+	 0.0 0.0 1.0 -16.0
+	 0.0 0.0 0.0 1.0
+	#ray_file_instance 6
+#group_end
+#group_begin
+	 1.0 0.0 0.0 -1.0
+	 0.0 1.0 0.0 -2.5
+	 0.0 0.0 1.0 -16.0
+	 0.0 0.0 0.0 1.0
+	#ray_file_instance 6
+#group_end
+#group_begin
+	 1.0 0.0 0.0 0.0
+	 0.0 1.0 0.0 -1.95
+	 0.0 0.0 1.0 -15.0
+	 0.0 0.0 0.0 1.0
+	#ray_file_instance 7
+#group_end
+#group_begin
+	 1.0 0.0 0.0 -1.5
+	 0.0 1.0 0.0 -2.7
+	 0.0 0.0 1.0 -15.3
+	 0.0 0.0 0.0 1.0
+	#ray_file_instance 8
+#group_end
+#group_begin
+	 1.0 0.0 0.0 -1.5
+	 0.0 1.0 0.0 -2.7
+	 0.0 0.0 1.0 -14.8
+	 0.0 0.0 0.0 1.0
+	#ray_file_instance 8
+#group_end
+#group_begin
+	 1.0 0.0 0.0 -2.0
+	 0.0 1.0 0.0 -2.7
+	 0.0 0.0 1.0 -15.3
+	 0.0 0.0 0.0 1.0
+	#ray_file_instance 8
+#group_end
+#group_begin
+	 1.0 0.0 0.0 -2.0
+	 0.0 1.0 0.0 -2.7
+	 0.0 0.0 1.0 -14.8
+	 0.0 0.0 0.0 1.0
+	#ray_file_instance 8
+#group_end
+#group_begin
+	 1.0 0.0 0.0 1.5
+	 0.0 1.0 0.0 -2.7
+	 0.0 0.0 1.0 -15.3
+	 0.0 0.0 0.0 1.0
+	#ray_file_instance 8
+#group_end
+#group_begin
+	 1.0 0.0 0.0 1.5
+	 0.0 1.0 0.0 -2.7
+	 0.0 0.0 1.0 -14.8
+	 0.0 0.0 0.0 1.0
+	#ray_file_instance 8
+#group_end
+#group_begin
+	 1.0 0.0 0.0 2.0
+	 0.0 1.0 0.0 -2.7
+	 0.0 0.0 1.0 -15.3
+	 0.0 0.0 0.0 1.0
+	#ray_file_instance 8
+#group_end
+#group_begin
+	 1.0 0.0 0.0 2.0
+	 0.0 1.0 0.0 -2.7
+	 0.0 0.0 1.0 -14.8
+	 0.0 0.0 0.0 1.0
+	#ray_file_instance 8
+#group_end
+#group_begin
+	 1.0 0.0 0.0 1.75
+	 0.0 1.0 0.0 -2.35
+	 0.0 0.0 1.0 -15.0
+	 0.0 0.0 0.0 1.0
+	#ray_file_instance 9
+#group_end
+#group_begin
+	 1.0 0.0 0.0 -1.75
+	 0.0 1.0 0.0 -2.35
+	 0.0 0.0 1.0 -15.0
+	 0.0 0.0 0.0 1.0
+	#ray_file_instance 9
+#group_end
+#group_begin
+	 1.0 0.0 0.0 -2.0
+	 0.0 1.0 0.0 -2.0
+	 0.0 0.0 1.0 -15.0
+	 0.0 0.0 0.0 1.0
+	#ray_file_instance 10
+#group_end
+#group_begin
+	 1.0 0.0 0.0  2.0
+	 0.0 1.0 0.0 -2.0
+	 0.0 0.0 1.0 -15.0
+	 0.0 0.0 0.0 1.0
+	#ray_file_instance 10
+#group_end
